@@ -25,7 +25,7 @@ export interface PromptConfig {
 export const defaultConfig: LLMConfig = {
     temperature: 1,
     topK: 40,
-    topP: 30,
+    topP: 1,
     maxOutputTokens: 2000,
     memoryEnabled: true,
     messageHistorySize: 50,
