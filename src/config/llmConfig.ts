@@ -26,7 +26,7 @@ export const defaultConfig: LLMConfig = {
     temperature: 0.7,
     topK: 40,
     topP: 0.95,
-    maxOutputTokens: 2000,
+    maxOutputTokens: 100,
     memoryEnabled: true,
     messageHistorySize: 50,
     memoryWindow: 10
